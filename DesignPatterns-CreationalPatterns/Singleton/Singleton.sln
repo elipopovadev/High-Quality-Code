@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDetails", "Singleton\PrintDetails.csproj", "{4C0638A0-5E01-4B9C-A0F8-003996AEBE00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C0638A0-5E01-4B9C-A0F8-003996AEBE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0638A0-5E01-4B9C-A0F8-003996AEBE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0638A0-5E01-4B9C-A0F8-003996AEBE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0638A0-5E01-4B9C-A0F8-003996AEBE00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB3A7079-698A-4F5F-BD5E-833513A2C829}
+	EndGlobalSection
+EndGlobal
