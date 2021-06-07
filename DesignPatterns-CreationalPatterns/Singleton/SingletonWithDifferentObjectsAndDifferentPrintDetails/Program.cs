@@ -10,6 +10,9 @@
 
             Singleton fromStudent = new Singleton(); // second object with different print details
             fromStudent.PrintDetails("Message from Student");
+
+            Singleton fromMentor = new Singleton(); // third object with different print details
+            fromMentor.PrintDetails("Message from Mentor");
         }
     }
 }
