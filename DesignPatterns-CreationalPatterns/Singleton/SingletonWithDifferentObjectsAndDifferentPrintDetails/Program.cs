@@ -1,4 +1,5 @@
-﻿namespace SingletonWithDifferentObjectsAndDifferentPrintDetails
+﻿namespace SingletonWithDifferentObjects
+
 {
    public class Program
     {

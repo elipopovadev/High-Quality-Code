@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SingletonWithDifferentObjectsAndDifferentPrintDetails
+namespace SingletonWithDifferentObjects
 {
    public class Singleton
     {
