@@ -6,7 +6,7 @@ namespace Singleton_withGetInstance
     {
         private static Singleton instance;
 
-        private Singleton() // always is private
+        private Singleton() //  always is private
         {
 
         }
