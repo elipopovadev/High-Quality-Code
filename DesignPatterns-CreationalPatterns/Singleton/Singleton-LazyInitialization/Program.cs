@@ -1,9 +1,8 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 
 namespace Singleton_LazyInitialization
 {
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {          
