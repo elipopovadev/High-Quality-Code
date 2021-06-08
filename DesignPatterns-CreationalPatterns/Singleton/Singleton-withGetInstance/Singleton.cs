@@ -2,7 +2,7 @@
 
 namespace Singleton_withGetInstance
 {
-    public sealed class Singleton
+    public sealed class Singleton // always is sealed
     {
         private static Singleton instance;
 
