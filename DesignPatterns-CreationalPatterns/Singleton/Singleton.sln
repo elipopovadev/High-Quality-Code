@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDetails", "Singleton\PrintDetails.csproj", "{4C0638A0-5E01-4B9C-A0F8-003996AEBE00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintDetails", "Singleton\PrintDetails.csproj", "{4C0638A0-5E01-4B9C-A0F8-003996AEBE00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonWithDifferentObjects", "SingletonWithDifferentObjectsAndDifferentPrintDetails\SingletonWithDifferentObjects.csproj", "{D4B91CFE-4E10-4742-88D0-D30362EAA971}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonWithDifferentObjects", "SingletonWithDifferentObjectsAndDifferentPrintDetails\SingletonWithDifferentObjects.csproj", "{D4B91CFE-4E10-4742-88D0-D30362EAA971}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton-withGetInstance", "Singleton-withGetInstance\Singleton-withGetInstance.csproj", "{9633A58D-6C5C-4F71-ADC4-6C48B0D5F058}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton-withGetInstance", "Singleton-withGetInstance\Singleton-withGetInstance.csproj", "{9633A58D-6C5C-4F71-ADC4-6C48B0D5F058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton-EagerInitialization", "Singleton-LazyInitialization\Singleton-EagerInitialization.csproj", "{65B831D4-07C0-4626-B3D3-5E802FC049A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton-LazyInitialization", "Singleton-LazyInitialization\Singleton-LazyInitialization.csproj", "{AAD2A2E8-C0D3-4D60-B5D7-5DA84CFC48E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{9633A58D-6C5C-4F71-ADC4-6C48B0D5F058}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9633A58D-6C5C-4F71-ADC4-6C48B0D5F058}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9633A58D-6C5C-4F71-ADC4-6C48B0D5F058}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65B831D4-07C0-4626-B3D3-5E802FC049A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65B831D4-07C0-4626-B3D3-5E802FC049A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65B831D4-07C0-4626-B3D3-5E802FC049A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65B831D4-07C0-4626-B3D3-5E802FC049A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD2A2E8-C0D3-4D60-B5D7-5DA84CFC48E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD2A2E8-C0D3-4D60-B5D7-5DA84CFC48E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD2A2E8-C0D3-4D60-B5D7-5DA84CFC48E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD2A2E8-C0D3-4D60-B5D7-5DA84CFC48E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
