@@ -4,7 +4,7 @@ namespace Singleton_withGetInstance
 {
     public sealed class Singleton
     {
-        private static Singleton instance = null;
+        private static Singleton instance;
 
         private Singleton() // always is private
         {
