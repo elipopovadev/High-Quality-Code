@@ -3,19 +3,19 @@ using VehiclesCreator.Vehicles;
 
 namespace VehiclesCreator.FactoryFolder
 {
-    public static class Factory
+    public static class SeaFactory
     {
         public static IVehicle CreateVehicle(string type, double fuelQuantity, double fuelConsumption)
         {
             IVehicle vehicle = null;
-            if(type == "car")
+            if(type == "ship")
             {
-                vehicle = new Car(fuelQuantity, fuelConsumption);
+                vehicle = new Ship(fuelQuantity, fuelConsumption);
             }
 
-            else if(type == "truck")
+            else if(type== "boat")
             {
-                vehicle = new Truck(fuelQuantity, fuelConsumption);
+                vehicle = new Boat(fuelQuantity, fuelConsumption);
             }
 
             else

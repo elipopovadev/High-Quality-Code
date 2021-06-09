@@ -8,10 +8,10 @@ namespace VehiclesCreator
     {
         static void Main(string[] args)
         {
-            IVehicle firstVehicle = Factory.CreateVehicle("car", 50, 10);
+            IVehicle firstVehicle = RoadFactory.CreateVehicle("car", 50, 10);
             Console.WriteLine(firstVehicle.FuelConsumption);
 
-            IVehicle secondVehicle = Factory.CreateVehicle("truck", 100, 20);
+            IVehicle secondVehicle = SeaFactory.CreateVehicle("ship", 100, 20);
             Console.WriteLine(secondVehicle.FuelConsumption);
         }
     }
