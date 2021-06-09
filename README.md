@@ -16,4 +16,4 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       - static class Factory with method "CreateProduct"- accept the product type(enum) and return the whole product;
      
      c) Factory Method:
-      - define interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses. 
+      - we create the object without exposing the creation logic. In this pattern, an interface is used for creating an object, but let subclass decide which class to instantiate. The           creation of object is done when it is required. The Factory method allows a class later instantiation to subclasses.
