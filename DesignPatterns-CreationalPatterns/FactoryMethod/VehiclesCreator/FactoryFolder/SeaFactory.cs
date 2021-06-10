@@ -3,7 +3,7 @@ using VehiclesCreator.Vehicles;
 
 namespace VehiclesCreator.FactoryFolder
 {
-    public static class SeaFactory
+    public class SeaFactory : IFactoryCreator
     {
         public static IVehicle CreateVehicle(string type, double fuelQuantity, double fuelConsumption)
         {
