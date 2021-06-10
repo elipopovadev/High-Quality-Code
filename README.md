@@ -18,10 +18,9 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
      c) Factory Method:
       - we create the object without exposing the creation logic. In this pattern, an interface is used for creating an object, but let subclass decide which class to instantiate. The           creation of object is done when it is required. The Factory method allows a class later instantiation to subclasses.
       
-      d) Abstract Factory:
-      
-       - remember this example: VW Factory creates doors for cars, windows for cars, tyres, but Honda Factory also creates doors for cars, windows for cars, tyres etc.
-       - provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes;
-       - every factory creates family of objects (doors, windows, tyres);
+      d) Abstract Factory:      
+      - remember this example: VW Factory creates doors for cars, windows for cars, tyres, but Honda Factory also creates doors for cars, windows for cars, tyres etc.
+      - provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes;
+      - every factory creates family of objects (doors, windows, tyres);
       
       e) Builder:
