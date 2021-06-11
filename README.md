@@ -23,3 +23,7 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       - every factory creates family of objects (doors, windows, tyres);
       
       e) Builder:
+      - remember this example: BugattiChironBuilder (concrete builder for Buggati Chiron) with void SetModel(), void SetTransmission(), void SetBody(), void SetEngine, void SetAccessories();
+      - multiply constructor in your class and might expand;
+      - avoiding multiply parameters in constructors;
+      
