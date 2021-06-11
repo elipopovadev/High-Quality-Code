@@ -25,5 +25,5 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       e) Builder:
       - remember this example: BugattiChironBuilder (concrete builder for Buggati Chiron) with void SetModel(), void SetTransmission(), void SetBody(), void SetEngine;
       - multiply constructor in your class and might expand;
-      - avoiding multiply parameters;
+      - avoiding multiply parameters in constructors;
       
