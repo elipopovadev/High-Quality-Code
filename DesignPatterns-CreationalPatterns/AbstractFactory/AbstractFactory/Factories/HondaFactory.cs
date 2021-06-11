@@ -9,9 +9,9 @@ namespace AbstractFactory.Factories
         {
             switch (door)
             {
-                case "hondaFrondDoor":
+                case "frondDoor":
                     return new HondaFrondDoor("white", 50);
-                case "hondaBackDoor":
+                case "backDoor":
                     return new HondaBackDoor("white", 90, "circle");
                 default:
                     throw new ArgumentException("Invalid type of door");

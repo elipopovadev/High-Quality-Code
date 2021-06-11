@@ -1,4 +1,5 @@
-﻿using AbstractFactory.Factories;
+﻿using AbstractFactory.Client;
+using AbstractFactory.Factories;
 using AbstractFactory.Products;
 using System;
 
@@ -8,13 +9,13 @@ namespace AbstractFactory
     {
         static void Main(string[] args)
         {
-            var hondaFactory = new HondaFactory();
-            IDoor frondDoor = hondaFactory.CreateDoor("hondaFrondDoor");
-            Console.WriteLine(frondDoor.Color);
+            IAutomobileFactory hondaFactory = new HondaFactory();
+            AutomobileClient client = new AutomobileClient(hondaFactory, "window");
+            Console.WriteLine(client.GetWindow().Size); // 40
 
             var vwFactory = new VWFactory();
-            IWindow vwWindow = vwFactory.CreateWindow();
-            Console.WriteLine(vwWindow.Size);
+            AutomobileClient secondClient = new AutomobileClient(vwFactory, "window");
+            Console.WriteLine(secondClient.GetWindow().Size); // 10
         }
     }
 }
