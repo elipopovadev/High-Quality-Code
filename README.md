@@ -23,3 +23,6 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       - every factory creates family of objects (doors, windows, tyres);
       
       e) Builder:
+      - multiply constructor in your class and might expand;
+      - avoiding multiply parameters;
+      
