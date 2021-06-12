@@ -3,8 +3,8 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
 1. Creational Patterns:
 
     a) Singleton:
+      - this pattern ensures that a class has only one instance and provides a global point of access to it;
       - always is sealed class with: private static Singleton instance, private constructor and one getter- public static Singleton GetInstance (see Standard Singleton);
-      - always is with only one instance;
       - Lazy and Eager loading in Singleton;       
       - real world usages: Logging, Managing a connection or a pool of connections to Database, Printer spooling, File, Configuration, Cache, Session based shopping cart;
     
