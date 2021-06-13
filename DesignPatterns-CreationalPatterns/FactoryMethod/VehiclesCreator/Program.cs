@@ -8,11 +8,27 @@ namespace VehiclesCreator
     {
         static void Main(string[] args)
         {
-            IVehicle firstVehicle = RoadFactory.CreateVehicle("car", 50, 10);
-            Console.WriteLine(firstVehicle.FuelConsumption);
+            IVehicle firstVehicle = new CaddyFactory().CreateVehicle(); // the subclass is CaddyFactory and decided to create VW Caddy
+            if(firstVehicle!= null)
+            {
+                Console.WriteLine(firstVehicle.FuelConsumption);
+            }
 
-            IVehicle secondVehicle = SeaFactory.CreateVehicle("ship", 100, 20);
-            Console.WriteLine(secondVehicle.FuelConsumption);
+            else
+            {
+                Console.WriteLine("Invalid Vehicle type");
+            }
+
+            IVehicle secondVehicle = new PassatFactory().CreateVehicle();
+            if (secondVehicle != null)
+            {
+                Console.WriteLine(secondVehicle.FuelQuantity);
+            }
+
+            else
+            {
+                Console.WriteLine("Invalid Vehicle type");
+            }
         }
     }
 }
