@@ -1,15 +1,12 @@
 ﻿namespace VehiclesCreator.Vehicles
 {
-    public class VWCaddy : IVehicle
+    public class VWCaddy : Vehicle
     {
         public VWCaddy()
         {
-            this.FuelQuantity = 70d;
-            this.FuelConsumption = 8;
+            base.FuelQuantity = 70d;
+            base.FuelConsumption = 8;
         }
-
-        public double FuelQuantity { get; private set; }
-        public double FuelConsumption { get; private set; }
     }
 }
 

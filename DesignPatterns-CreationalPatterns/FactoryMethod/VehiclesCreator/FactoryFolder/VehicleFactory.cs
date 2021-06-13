@@ -4,10 +4,10 @@ namespace VehiclesCreator.FactoryFolder
 {
    public abstract class VehicleFactory
     {
-        protected abstract IVehicle MakeVehicle();
-        public IVehicle CreateVehicle()
+        protected abstract Vehicle MakeVehicle(string type);
+        public Vehicle CreateVehicle(string type)
         {
-            return this.MakeVehicle();
+            return this.MakeVehicle(type);
         }
     }
 }
