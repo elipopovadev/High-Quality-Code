@@ -6,17 +6,20 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       - this pattern ensures that a class has only one instance and provides a global point of access to it;
       - always is sealed class with: private static Singleton instance, private constructor and one getter- public static Singleton GetInstance (see Standard Singleton);
       - class could have methods, fields or properties;
-      - Lazy and Eager loading in Singleton;       
+      - Lazy loading is to load the object on-demand or you can say object when needed. The most important point that you need to keep in mind is that, you need to use the Lazy               loading when the cost of the object creation is very high as well as the use of that object is very rare. 
+      - remember that the Lazy<T> objects are by default thread-safe. In a multi-threaded environment, when multiple threads are trying to access the same Get Instance property at           the same time, then the lazy object will take care of thread safety.   
+      - Eager loading: initialize the singleton object at the time of application start-up rather than on-demand and keep it ready in memory to be used in the future. The advantage           of using Eager Loading in the Singleton design pattern is that the CLR (Common Language Runtime) will take care of object initialization and thread-safety. That means we will         not require to write any code explicitly for handling the thread-safety for a multithreaded environment.
       - real world usages: Logging, Managing a connection or a pool of connections to Database, Printer spooling, File, Configuration, Cache, Session based shopping cart;
     
-    b) Simple Factory:
+    b) Simple Factory Design Pattern:
       - remember the drawing with the factory, which accept paper (like input) and produces paper boxes; the client doesn't know and doesn't understand factory logic;
-      - creates objects without exposing the instantion logic to the client;
-      - folder with enumeration;
-      - static class Factory with method "CreateProduct"- accept the product type(enum) and return the whole product;
+      - A factory is an object which is used for creating other objects;
+      - static class Factory with method "CreateProduct"- accept the product type and return the whole product;
+      - the basic principle behind the factory design pattern is that, at run time, we get an object of similar type based on the parameter we pass; 
      
      c) Factory Method:
-      - is used, when we need to create the object (i.e. instance of the Product class) without exposing the object creation logic to the client. To achieve this, in the factory           method design pattern we will create an abstract class as the VehicleFactory class which will create and return the instance of the product, but it will let the                       subclasses(VWFactory, PeugeotFactory) decide which Product class to instantiate (VWCaddy, VWPassat);
+      - is used, when we need to create the object (i.e. instance of the Product class) without exposing the object creation logic to the client;
+      - we will create an abstract class as the VehicleFactory class which will create and return the instance of the product, but it will let the                                             subclasses(VWFactory, PeugeotFactory) decide which Product class (VWCaddy, VWPassat) to instantiate;
       
       d) Abstract Factory:      
       - remember this example: VW Factory creates doors for cars, windows for cars, tyres, but Honda Factory also creates doors for cars, windows for cars, tyres etc.
