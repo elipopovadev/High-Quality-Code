@@ -9,11 +9,11 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       - Lazy and Eager loading in Singleton;       
       - real world usages: Logging, Managing a connection or a pool of connections to Database, Printer spooling, File, Configuration, Cache, Session based shopping cart;
     
-    b) Simple Factory:
+    b) Simple Factory Design Pattern:
       - remember the drawing with the factory, which accept paper (like input) and produces paper boxes; the client doesn't know and doesn't understand factory logic;
-      - creates objects without exposing the instantion logic to the client;
-      - folder with enumeration;
-      - static class Factory with method "CreateProduct"- accept the product type(enum) and return the whole product;
+      - A factory is an object which is used for creating other objects;
+      - static class Factory with method "CreateProduct"- accept the product type and return the whole product;
+      - the basic principle behind the factory design pattern is that, at run time, we get an object of similar type based on the parameter we pass; 
      
      c) Factory Method:
       - is used, when we need to create the object (i.e. instance of the Product class) without exposing the object creation logic to the client;
