@@ -16,7 +16,7 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       - static class Factory with method "CreateProduct"- accept the product type(enum) and return the whole product;
      
      c) Factory Method:
-      - we create the object without exposing the creation logic. In this pattern, an interface is used for creating an object, but let subclass decide which class to instantiate. The           creation of object is done when it is required. The Factory method allows a class later instantiation to subclasses.
+      - is used, when we need to create the object (i.e. instance of the Product class) without exposing the object creation logic to the client. To achieve this, in the factory           method design pattern we will create an abstract class as the Factory class which will create and return the instance of the product, but it will let the subclasses decide           which class to instantiate.
       
       d) Abstract Factory:      
       - remember this example: VW Factory creates doors for cars, windows for cars, tyres, but Honda Factory also creates doors for cars, windows for cars, tyres etc.
@@ -28,3 +28,7 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       - multiply constructor in your class and might expand;
       - avoiding multiply parameters in constructors;
       
+      f) Prototype Design Pattern:
+      - gives us a way to create new objects from the existing instance of the object;
+      - Shallow copy: it will create the new object from the existing object and then copying the value type fields of the current object to the new object. But in the case of               reference type, it will only copy the reference, not the referred object itself;
+      - Deep copy: it will create the new object from the existing object and then copying the fields of the current object to the newly created object. If the field is a value type,         then a bit-by-bit copy of the field will be performed. If the field is a reference type, then a new copy of the referred object is created;
