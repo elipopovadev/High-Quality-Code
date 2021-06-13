@@ -16,7 +16,7 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       - static class Factory with method "CreateProduct"- accept the product type(enum) and return the whole product;
      
      c) Factory Method:
-      - is used, when we need to create the object (i.e. instance of the Product class) without exposing the object creation logic to the client. To achieve this, in the factory           method design pattern we will create an abstract class as the Factory class which will create and return the instance of the product, but it will let the subclasses decide           which class to instantiate.
+      - is used, when we need to create the object (i.e. instance of the Product class) without exposing the object creation logic to the client. To achieve this, in the factory           method design pattern we will create an abstract class as the VehicleFactory class which will create and return the instance of the product, but it will let the                       subclasses(VWFactory, PeugeotFactory) decide which Product class to instantiate.
       
       d) Abstract Factory:      
       - remember this example: VW Factory creates doors for cars, windows for cars, tyres, but Honda Factory also creates doors for cars, windows for cars, tyres etc.
