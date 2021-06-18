@@ -50,6 +50,17 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       a) Facade Design Pattern:
       - defines a higher-level interface that makes the subsystem easier to use;
       - hides the complexities of the system;
+    
+     b) Proxy Design Pattern:
+      - remember the example with ATM (proxy), client and bank;
+      - the Proxy is the object which is being called by the client to access the real object behind the scene;
+      - the client will call the method of the Proxy object and the proxy will be responsible to call the method of the Real Object;
+      - a class represents the functionality of another class;
+      - could interface to anything such as a network connection, a large object in memory, a file, or some other resources that are expensive or impossible to duplicate;
+      - Virtual Proxy, Remote Proxy, Protection Proxy;
+
+
+     
 
     
     
