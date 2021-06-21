@@ -58,6 +58,11 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       - a class represents the functionality of another class;
       - could interface to anything such as a network connection, a large object in memory, a file, or some other resources that are expensive or impossible to duplicate;
       - Virtual Proxy, Remote Proxy, Protection Proxy;
+    
+    c) Adapter Design Pattern:
+     - adapter is responsible for communication between two independent or incompatible interfaces;
+     - works as a bridge between two incompatible interfaces;
+     - example is: HR System (Client) will send the employee information in the form of a String Array to the Adapter and it will read the employee information from the string array        and put each employee object into the List<Employee> and then the Adapter will send the List<Employee> to the ProcessSalary method of Third Party Billing System. Then the            ProcessSalary method calculates the Salary of each employee and deposits the salary into the Employee’s bank account;
 
 
      
