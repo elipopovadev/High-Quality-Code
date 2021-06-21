@@ -20,6 +20,5 @@ namespace VirtualProxy.RealObject
         {
             Console.WriteLine("Loading Image : " + FileName);
         }
-
     }
 }
