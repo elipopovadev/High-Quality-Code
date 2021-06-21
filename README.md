@@ -47,11 +47,11 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
     
 2. Structural Design Pattern:
     
-      a) Facade Design Pattern:
+      a) Facade:
       - defines a higher-level interface that makes the subsystem easier to use;
       - hides the complexities of the system;
     
-     b) Proxy Design Pattern:
+     b) Proxy:
       - remember the example with ATM (proxy), client and bank;
       - the Proxy is the object which is being called by the client to access the real object behind the scene;
       - the client will call the method of the Proxy object and the proxy will be responsible to call the method of the Real Object;
@@ -59,10 +59,16 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       - could interface to anything such as a network connection, a large object in memory, a file, or some other resources that are expensive or impossible to duplicate;
       - Virtual Proxy, Remote Proxy, Protection Proxy;
     
-    c) Adapter Design Pattern:
+    c) Adapter:
      - adapter is responsible for communication between two independent or incompatible interfaces;
      - works as a bridge between two incompatible interfaces;
      - example is: HR System (Client) will send the employee information in the form of a String Array to the Adapter and it will read the employee information from the string array        and put each employee object into the List<Employee> and then the Adapter will send the List<Employee> to the ProcessSalary method of Third Party Billing System. Then the            ProcessSalary method calculates the Salary of each employee and deposits the salary into the Employee’s bank account;
+    
+    d) Bridge:
+      - there are two parts: the first part is the abstraction and the second part is the implementation;
+      - allows the abstraction and implementation to be developed independently;
+      - if you want to add a new implementation or if you want to remove any implementation, then it will not affect the Abstraction layer;
+      - the client will only use the abstraction to save or delete the object;
 
 
      
