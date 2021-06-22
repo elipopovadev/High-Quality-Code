@@ -66,14 +66,13 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
     
     d) Bridge:
       - there are two parts: the first part is the abstraction and the second part is the implementation;
+      - providing a bridge betwen abstract class and implementation class - bridge interface;
       - allows the abstraction and implementation to be developed independently;
       - if you want to add a new implementation or if you want to remove any implementation, then it will not affect the Abstraction layer;
-      - providing a bridge betwen abstract class and implementation class - bridge interface;
       - the client will only use the abstraction to save or delete the object;
 
 
-     
-
+    
     
     
     
