@@ -74,7 +74,7 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
     e) Decorator:
      - dynamically changes the functionality of an object at runtime without impacting the existing functionality of the objects;
      - adds additional functionalities to the object by wrapping it;
-     - remember how to create car with diesel engine and car with petrol engine;
+     - remember how to create car with diesel engine and car with petrol engine, or pizza decorator;
 
 
     
