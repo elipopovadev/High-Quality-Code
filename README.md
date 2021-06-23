@@ -70,6 +70,10 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       - allows the abstraction and implementation to be developed independently;
       - if you want to add a new implementation or if you want to remove any implementation, then it will not affect the Abstraction layer;
       - the client will only use the abstraction to save or delete the object;
+    
+    e) Decorator:
+     - dynamically changes the functionality of an object at runtime without impacting the existing functionality of the objects;
+     - adds additional functionalities to the object by wrapping it;
 
 
     
