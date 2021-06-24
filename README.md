@@ -80,7 +80,7 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
      - compose objects into tree structures to represent part-whole hierarchies;
      - composite let clients treat individual objects and compositions of objects uniformly;
      - this pattern creates a tree structure of a group of objects;
-     - the Composite Pattern is used where we need to treat a group of objects in a similar way as a single unit object;;
+     - the Composite Pattern is used where we need to treat a group of objects in a similar way as a single unit object;
 
 
     
