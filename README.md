@@ -75,6 +75,12 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
      - dynamically changes the functionality of an object at runtime without impacting the existing functionality of the objects;
      - adds additional functionalities to the object by wrapping it;
      - remember how to create car with diesel engine and car with petrol engine, or pizza decorator;
+    
+    f) Composite:
+     - compose objects into tree structures to represent part-whole hierarchies;
+     - composite let clients treat individual objects and compositions of objects uniformly;
+     - this pattern creates a tree structure of a group of objects;
+     - the Composite Pattern is used where we need to treat a group of objects in a similar way as a single unit object;;
 
 
     
