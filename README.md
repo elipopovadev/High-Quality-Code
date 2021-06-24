@@ -84,6 +84,7 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
      - will be having a tree structure having composite objects and leaf objects;
      - composite component may also contain other composite objects;
      - the object which does not contain any other objects is simply treated as a leaf object;
+     - if you perform some operation on the leaf object then the same operation should be performed on the composite objects (for example to get price);
 
 
     
