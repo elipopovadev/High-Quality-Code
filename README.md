@@ -89,7 +89,7 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
     g) Flyweight:
      - is used when there is a need to create a large number of objects of almost similar nature (example: red circle, blue circle, black circle);
      - is basically used to reduce the number of objects created, decrease the memory footprint, and increase the overall performance of the application;
-     - this design pattern tries to reduce the already existing similar kind of objects by storing them and create a new object when no matching object is found(FlyweightFactory);
+     - this design pattern tries to reduce the already existing similar kind of objects by storing them and create a new object when no matching object is found (FlyweightFactory);
 
 
     
