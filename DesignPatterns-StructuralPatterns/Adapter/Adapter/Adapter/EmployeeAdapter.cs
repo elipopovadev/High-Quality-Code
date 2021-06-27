@@ -15,25 +15,25 @@ namespace Adapter.Adapter
             string Salary = null;
 
             List<Employee> listEmployee = new List<Employee>();
-            for (int i = 0; i < employeesArray.GetLength(0); i++)
+            for (int row = 0; row < employeesArray.GetLength(0); row++)
             {
-                for (int j = 0; j < employeesArray.GetLength(1); j++)
+                for (int col = 0; col < employeesArray.GetLength(1); col++)
                 {
-                    if (j == 0)
+                    if (col == 0)
                     {
-                        Id = employeesArray[i, j];
+                        Id = employeesArray[row, col];
                     }
-                    else if (j == 1)
+                    else if (col == 1)
                     {
-                        Name = employeesArray[i, j];
+                        Name = employeesArray[row, col];
                     }
-                    else if (j == 2)
+                    else if (col == 2)
                     {
-                        Designation = employeesArray[i, j];
+                        Designation = employeesArray[row, col];
                     }
                     else
                     {
-                        Salary = employeesArray[i, j];
+                        Salary = employeesArray[row, col];
                     }
                 }
 
