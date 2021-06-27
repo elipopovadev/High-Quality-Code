@@ -87,9 +87,11 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
      - if you perform some operation on the leaf object then the same operation should be performed on the composite objects (for example to get price);
     
     g) Flyweight:
-     - is used when there is a need to create a large number of objects of almost similar nature (example: 3000 red circles, 4000 blue circles, 5000 black circles);
+     - is used when there is a need to create a large number of objects of almost similar nature;
      - is basically used to reduce the number of objects created, decrease the memory footprint, and increase the overall performance of the application;
      - this design pattern tries to reduce the already existing similar kind of objects by storing them and create a new object when no matching object is found (FlyweightFactory);
+     - example: we have to create 3000 red circles, 4000 blue circles, 5000 black circles; 
+     - we can improve the performance by creating the circle object only one time and reuse that circle object many times to create a different type of color;
 
 
     
