@@ -14,7 +14,7 @@ namespace Composite
             IComponent keyboard = new Leaf("Keyboard", 2000);
 
             // Creating Composite objects
-            Composite motherBoard = new Composite("Peripherals"); // composite objects are without price property
+            Composite motherBoard = new Composite("MotherBoard"); // composite objects are without price property
             Composite cabinet = new Composite("Cabinet");
             Composite peripherals = new Composite("Peripherals");
             Composite computer = new Composite("Computer");
