@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{B0E04A9A-20FD-46C8-84F4-4E06656B1D22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{B0E04A9A-20FD-46C8-84F4-4E06656B1D22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualProxy", "VirtualProxy\VirtualProxy.csproj", "{171DED53-EE0E-4E15-BECC-8D2F1A447097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualProxy", "VirtualProxy\VirtualProxy.csproj", "{171DED53-EE0E-4E15-BECC-8D2F1A447097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyHomework", "ProxyHomework\ProxyHomework.csproj", "{B28054E8-D668-420D-AE58-FACF1B6362DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{171DED53-EE0E-4E15-BECC-8D2F1A447097}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{171DED53-EE0E-4E15-BECC-8D2F1A447097}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{171DED53-EE0E-4E15-BECC-8D2F1A447097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28054E8-D668-420D-AE58-FACF1B6362DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28054E8-D668-420D-AE58-FACF1B6362DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28054E8-D668-420D-AE58-FACF1B6362DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28054E8-D668-420D-AE58-FACF1B6362DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
