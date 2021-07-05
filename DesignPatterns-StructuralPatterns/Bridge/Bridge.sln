@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{BF711D22-2572-4695-961D-674F9850EE49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{BF711D22-2572-4695-961D-674F9850EE49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeHomework", "BridgeHomework\BridgeHomework.csproj", "{7D6BCD23-066E-4533-B1C9-82C3E05708BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BF711D22-2572-4695-961D-674F9850EE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF711D22-2572-4695-961D-674F9850EE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF711D22-2572-4695-961D-674F9850EE49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D6BCD23-066E-4533-B1C9-82C3E05708BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D6BCD23-066E-4533-B1C9-82C3E05708BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D6BCD23-066E-4533-B1C9-82C3E05708BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D6BCD23-066E-4533-B1C9-82C3E05708BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
