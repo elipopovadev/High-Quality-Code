@@ -1,5 +1,6 @@
 ﻿using AdapterHomework.Adaptee;
 using AdapterHomework.Adapter;
+using System;
 
 namespace AdapterHomework
 {
@@ -7,16 +8,17 @@ namespace AdapterHomework
     {
         static void Main(string[] args)
         {
-            string[,] fuelArray = new string[,]
-            {
-                { "Bulgaria", "2" },
-                { "Australia", "3" },
-                { "UK", "4" },
-                { "US", "5" }
-            };
+            ITarget consult = new Translator();
 
-            ITarget petrolAdapter = new FuelAdapter();
-            petrolAdapter.ProcessRealFuelPrice(fuelArray);
+            ISpeaker Borko = new EnglishSpeaker();
+            string question = Borko.AskQuestion("How are you?");
+            Console.WriteLine(consult.TranslateToOtherPerson(question, "German"));
+
+            Console.WriteLine();
+
+            ISpeaker Diederich = new GermanSpeaker();
+            string answer = Diederich.AnswerTheQuestion("Hallo!");
+            Console.WriteLine(consult.TranslateToOtherPerson(answer, "English"));
         }
     }
 }

@@ -2,6 +2,6 @@
 {
    public interface ITarget
     {
-        public void ProcessRealFuelPrice(string[,] fuelArray);
+        public string TranslateToOtherPerson(string words, string language);
     }
 }
