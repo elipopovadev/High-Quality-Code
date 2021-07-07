@@ -1,9 +1,10 @@
 ﻿using AdapterHomework.Adaptee;
+using System;
 using System.Collections.Generic;
 
 namespace AdapterHomework.Adapter
 {
-   public  class Translator : ITarget
+    public class Translator : ITarget
     {
         private static readonly Dictionary<string, string> EnglishGermanDictionary = new Dictionary<string, string>
         {
@@ -19,43 +20,29 @@ namespace AdapterHomework.Adapter
             {"Freut mich, dich kennenzulernen!", "Nice to meet you!"},
         };
 
-        public string TranslateToOtherPerson(string words, string languageToConvert)
+        public string TranslateToOtherPerson(string text, string targetLanguage)
         {
-            if(languageToConvert == "German")
+            if (targetLanguage == "German" && EnglishGermanDictionary.ContainsKey(text))
             {
-                if (words == "Hello!")
-                {
-                    return EnglishGermanDictionary["Hello!"];
-                }
-                else if(words == "How are you?")
-                {
-                    return EnglishGermanDictionary["How are you?"];
-                }
-                else if(words == "Nice to meet you!")
-                {
-                    return EnglishGermanDictionary["Nice to meet you!"];
-                }
-                return "Convert Error!";
+                return EnglishGermanDictionary[text];
             }
 
-            else if(languageToConvert == "English")
+            else if (targetLanguage == "German" && !EnglishGermanDictionary.ContainsKey(text))
             {
-                if (words == "Hallo!")
-                {
-                    return GermanEnglishDictionary["Hallo!"];
-                }
-                else if (words == "Wie geht es dir?")
-                {
-                    return GermanEnglishDictionary["Wie geht es dir?"];
-                }
-                else if (words == "Freut mich, dich kennenzulernen!")
-                {
-                    return GermanEnglishDictionary["Freut mich, dich kennenzulernen!"];
-                }
-                return "Convert Error!";
+                throw new ArgumentException("Unknown text!");
             }
 
-            return "Unknown language";
+            else if (targetLanguage == "English" && GermanEnglishDictionary.ContainsKey(text))
+            {
+                return GermanEnglishDictionary["Hallo!"];
+            }
+
+            else if(targetLanguage == "English" && !GermanEnglishDictionary.ContainsKey(text))
+            {
+                throw new ArgumentException("Unknown text!");
+            }
+
+            throw new ArgumentException("Unknown language!");
         }
     }
 }
