@@ -34,7 +34,7 @@ namespace AdapterHomework.Adapter
 
             else if (targetLanguage == "English" && GermanEnglishDictionary.ContainsKey(text))
             {
-                return GermanEnglishDictionary["Hallo!"];
+                return GermanEnglishDictionary[text];
             }
 
             else if(targetLanguage == "English" && !GermanEnglishDictionary.ContainsKey(text))
