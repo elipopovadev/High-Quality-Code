@@ -7,9 +7,9 @@ namespace BridgeHomework.Abstraction
     {
         public static void CheckExpirationDate(ICosmetics product)
         {
-            if(product.ExpirationDate < new DateTime(01, 08, 2021))
+            if(product.ExpirationDate.CompareTo(new DateTime(2026, 08, 30, 3, 4, 5)) > 0)
             {
-                throw new ArgumentException("Expired date!");
+                throw new ArgumentException("Unvalid Expired date!");
             }
             else
             {
