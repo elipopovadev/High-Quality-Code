@@ -9,6 +9,7 @@ namespace DecoratorHomework
         {
             ICar carObj = new Car(50, 10);
             string car = carObj.MakeCar();
+            Console.WriteLine(car);
 
             OpelDecorator opelDecorator = new OpelDecorator(carObj);
             string opel = opelDecorator.MakeCar();
