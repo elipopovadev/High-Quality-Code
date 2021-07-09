@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{09350BCA-AE77-4D88-9B3F-51B90286086A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaDecoratorExample", "PizzaDecoratorExample\PizzaDecoratorExample.csproj", "{BAF691C2-CEE1-48F8-AD87-3B2AAA442179}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaDecoratorExample", "PizzaDecoratorExample\PizzaDecoratorExample.csproj", "{BAF691C2-CEE1-48F8-AD87-3B2AAA442179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorHomework", "DecoratorHomework\DecoratorHomework.csproj", "{7E86A639-3F8B-47D4-983B-C6E658FA0808}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BAF691C2-CEE1-48F8-AD87-3B2AAA442179}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAF691C2-CEE1-48F8-AD87-3B2AAA442179}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAF691C2-CEE1-48F8-AD87-3B2AAA442179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E86A639-3F8B-47D4-983B-C6E658FA0808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E86A639-3F8B-47D4-983B-C6E658FA0808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E86A639-3F8B-47D4-983B-C6E658FA0808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E86A639-3F8B-47D4-983B-C6E658FA0808}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
