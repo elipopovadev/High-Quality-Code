@@ -1,4 +1,4 @@
-﻿using DecoratorHomework.CarDecorator;
+﻿using DecoratorHomework.IceCreamDecorator;
 using System;
 
 namespace DecoratorHomework
@@ -7,17 +7,17 @@ namespace DecoratorHomework
     {
         static void Main(string[] args)
         {
-            ICar carObj = new Car(50, 10);
-            string car = carObj.MakeCar();
-            Console.WriteLine(car);
+            IIceCream iceCreamObj = new IceCream(1,0.2d);
+            string iceCream = iceCreamObj.MakeIceCream();
+            Console.WriteLine(iceCream);
 
-            OpelDecorator opelDecorator = new OpelDecorator(carObj);
-            string opel = opelDecorator.MakeCar();
-            Console.WriteLine(opel);
+            BananaIceCreamDecorator bananaIceCreamDecorator = new BananaIceCreamDecorator(iceCreamObj);
+            string iceCream2 = bananaIceCreamDecorator.MakeIceCream();
+            Console.WriteLine(iceCream2);
 
-            PeugeotDecorator peugeotDecorator = new PeugeotDecorator(carObj);
-            string peugeot = peugeotDecorator.MakeCar();
-            Console.WriteLine(peugeot);
+            StrawberryIceCreamDecorator strawberryIceCreamDecorator = new StrawberryIceCreamDecorator(iceCreamObj);
+            string iceCream3 = strawberryIceCreamDecorator.MakeIceCream();
+            Console.WriteLine(iceCream3);
         }
     }
 }
