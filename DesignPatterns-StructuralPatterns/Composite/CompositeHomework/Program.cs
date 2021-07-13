@@ -25,7 +25,7 @@ namespace CompositeHomework
             secondFloor.AddComponent(secondBedroom);
             secondFloor.AddComponent(bathroomSecondFloor);
             Console.WriteLine("SecondFloor Area:");
-            secondFloor.DisplayArea();           
+            secondFloor.DisplayArea();
         }
     }
 }
