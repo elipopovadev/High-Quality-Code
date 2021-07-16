@@ -2,7 +2,7 @@
 
 namespace Singleton_LazyInitialization
 {
-   public sealed class Singleton
+   public sealed class Singleton // always is sealed
     {
         private static readonly Lazy<Singleton> instance = new Lazy<Singleton>(()=> new Singleton()); // Thread-safe
 
