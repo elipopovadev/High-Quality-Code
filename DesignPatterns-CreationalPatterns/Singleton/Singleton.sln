@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintDetails", "Singleton\P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonWithDifferentObjects", "SingletonWithDifferentObjectsAndDifferentPrintDetails\SingletonWithDifferentObjects.csproj", "{D4B91CFE-4E10-4742-88D0-D30362EAA971}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton-withGetInstance", "Singleton-withGetInstance\Singleton-withGetInstance.csproj", "{9633A58D-6C5C-4F71-ADC4-6C48B0D5F058}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton-EagerInitialization", "Singleton-withGetInstance\Singleton-EagerInitialization.csproj", "{9633A58D-6C5C-4F71-ADC4-6C48B0D5F058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton-LazyInitialization", "Singleton-LazyInitialization\Singleton-LazyInitialization.csproj", "{AAD2A2E8-C0D3-4D60-B5D7-5DA84CFC48E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton-LazyInitialization", "Singleton-LazyInitialization\Singleton-LazyInitialization.csproj", "{AAD2A2E8-C0D3-4D60-B5D7-5DA84CFC48E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
