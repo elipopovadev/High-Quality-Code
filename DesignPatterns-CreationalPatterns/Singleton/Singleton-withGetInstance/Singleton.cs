@@ -1,26 +1,21 @@
 ﻿using System;
 
-namespace Singleton_withGetInstance
+namespace Singleton_EagerInitialization
 {
     public sealed class Singleton // always is sealed
     {
-        private static Singleton instance;
+        private static readonly Singleton singleInstance = new Singleton(); // creates the Singleton instance at the time of application startup
 
         private Singleton() // always is private
         {
-
+             
         }
 
         public static Singleton GetInstance // property with getter
         {
             get
             {
-                if (instance == null)
-                {
-                    instance = new Singleton(); // the instance is created only once
-                }
-
-                return instance;
+                return singleInstance;
             }
         }
 

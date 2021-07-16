@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Singleton_withGetInstance
+namespace Singleton_EagerInitialization
 {
     class Program
     {
