@@ -29,8 +29,9 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       
       e) Builder:
       - remember this example: BugattiChironBuilder (concrete builder for Buggati Chiron) with void SetModel(), void SetTransmission(), void SetBody(), void SetEngine, void                   SetAccessories();
-      - multiply constructor in your class and might expand;
       - avoiding multiply parameters in constructors;
+      - multiply constructor in your class and might expand;
+      
     
       f) Fluent Interface Design Pattern:
       - the Fluent Interfaces and Method chaining are related to each other. Or we can say that one is a concept and the other one is its implementation;
