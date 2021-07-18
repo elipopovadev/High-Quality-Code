@@ -11,7 +11,7 @@ namespace AbstractFactory.Client
         private readonly IWindow window;
         private readonly ISoftwareMenu softwareMenu;
 
-        public AutomobileClient(IAutomobileFactory factory, string type)
+        public AutomobileClient(IAutomobileFactory factory, string type) // type of factory and type of product
         {
             switch (type)
             {

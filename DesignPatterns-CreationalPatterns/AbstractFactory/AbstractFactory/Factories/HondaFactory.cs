@@ -9,8 +9,8 @@ namespace AbstractFactory.Factories
         {
             switch (door)
             {
-                case "frondDoor":
-                    return new HondaFrondDoor("white", 50);
+                case "frontDoor":
+                    return new HondaFrontDoor("white", 50);
                 case "backDoor":
                     return new HondaBackDoor("white", 90, "circle");
                 default:

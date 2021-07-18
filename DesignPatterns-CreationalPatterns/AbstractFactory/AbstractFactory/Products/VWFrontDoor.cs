@@ -1,8 +1,8 @@
 ﻿namespace AbstractFactory.Products
 {
-    public class HondaFrondDoor : IDoor
+   public class VWFrontDoor : IDoor
     {
-        public HondaFrondDoor(string color, int size)
+        public VWFrontDoor(string color, int size)
         {
             this.Color = color;
             this.Size = size;

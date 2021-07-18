@@ -1,6 +1,5 @@
 ﻿using AbstractFactory.Client;
 using AbstractFactory.Factories;
-using AbstractFactory.Products;
 using System;
 
 namespace AbstractFactory
