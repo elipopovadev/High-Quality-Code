@@ -4,7 +4,7 @@ namespace BugattiBuilder.Builder
 {
     public class BugattiChironBuilder : IBuilder
     {
-       private Vehicle objectVehicle = new Vehicle();
+       private readonly Vehicle objectVehicle = new Vehicle();
 
         public void SetModel()
         {
