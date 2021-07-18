@@ -24,6 +24,7 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       d) Abstract Factory:      
       - remember this example: VW Factory creates doors for cars, windows for cars, tyres, but Honda Factory also creates doors for cars, windows for cars, tyres etc.
       - provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes;
+      - the Abstract Factory is a super factory that creates other factories;
       - every factory creates family of objects (doors, windows, tyres);
       
       e) Builder:
