@@ -1,5 +1,5 @@
 # High-Quality-Code
-Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; Design Patterns - Behavioral Patterns; Refactoring 
+Creational Design Patterns; Structural Design Patterns; Behavioral Design Patterns; Dependency Injection Design Pattern; Repository Design Pattern 
 1. Creational Patterns:
 
     a) Singleton:
