@@ -98,7 +98,8 @@ Creational Design Patterns; Structural Design Patterns; Behavioral Design Patter
 
     
     
-    3. Behavioral Design Patterns:
+    
+3. Behavioral Design Patterns:
     
     a) Chain of Responsibility:
      - the chain of responsibility design pattern creates a chain of receiver objects for a given request;
