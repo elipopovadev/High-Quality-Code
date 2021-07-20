@@ -1,5 +1,5 @@
 # High-Quality-Code
-Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; Design Patterns - Behavioral Patterns; Refactoring 
+Creational Design Patterns; Structural Design Patterns; Behavioral Design Patterns; Dependency Injection Design Pattern; Repository Design Pattern 
 1. Creational Patterns:
 
     a) Singleton:
@@ -29,8 +29,9 @@ Design Patterns - Creational Patterns; Design Patterns - Structural Patterns; De
       
       e) Builder:
       - remember this example: BugattiChironBuilder (concrete builder for Buggati Chiron) with void SetModel(), void SetTransmission(), void SetBody(), void SetEngine, void                   SetAccessories();
-      - multiply constructor in your class and might expand;
       - avoiding multiply parameters in constructors;
+      - we need to use Builder Design Pattern when there is multiply constructor in the class or might be expand in the future;
+      
     
       f) Fluent Interface Design Pattern:
       - the Fluent Interfaces and Method chaining are related to each other. Or we can say that one is a concept and the other one is its implementation;
