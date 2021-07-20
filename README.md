@@ -1,6 +1,6 @@
 # High-Quality-Code
 Creational Design Patterns; Structural Design Patterns; Behavioral Design Patterns; Dependency Injection Design Pattern; Repository Design Pattern 
-1. Creational Patterns:
+1. Creational Design Patterns:
 
     a) Singleton:
       - this pattern ensures that a class has only one instance and provides a global point of access to it;
@@ -47,7 +47,7 @@ Creational Design Patterns; Structural Design Patterns; Behavioral Design Patter
     
     
     
-2. Structural Design Pattern:
+2. Structural Design Patterns:
     
       a) Facade:
       - defines a higher-level interface that makes the subsystem easier to use;
@@ -97,6 +97,14 @@ Creational Design Patterns; Structural Design Patterns; Behavioral Design Patter
 
 
     
+    3. Behavioral Design Patterns:
+    
+    a) Chain of Responsibility:
+     - the chain of responsibility design pattern creates a chain of receiver objects for a given request;
+     - normally each receiver contains a reference to another receiver;
+     - if one receiver cannot handle the request then it passes the same request to the next receiver and so on;
+     - one receiver handles the request in the chain or one or more receivers handle the request;
+     - remember the example with Developer, Team Leader, Project Leader and HR: only one receiver in the chain will handle the request and approve leave of the employee;
     
     
     
