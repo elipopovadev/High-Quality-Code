@@ -108,5 +108,11 @@ Creational Design Patterns; Structural Design Patterns; Behavioral Design Patter
      - one receiver handles the request in the chain or one or more receivers handle the request;
      - remember the example with Developer, Team Leader, Project Leader and HR: only one receiver in the chain will handle the request and approve leave of the employee;
     
+    b) Iterator:
+     - the iterator pattern is a design pattern in which an iterator is used to traverse a container ( ist, Array List, Array, etc.) and access the elements of the container;
+     - allows sequential access of elements without exposing the inside logic;
+     - we can access the elements of a collection object in a sequential manner without any need to know its internal representations;
+    
+    
     
     
