@@ -13,7 +13,7 @@ namespace Command
             {
                 remote.DrawMenu();
                 remote.PerformAction();
-                Console.WriteLine("If you want to continue (y):");
+                Console.WriteLine("If you want to continue press (y):");
                 userInput = Console.ReadLine();
             }
             while (userInput == "y");
