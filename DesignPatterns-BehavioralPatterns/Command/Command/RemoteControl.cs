@@ -1,68 +1,48 @@
 ﻿using Command.Commands;
-using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace Command
 {
    public class RemoteControl
     {
-        private Dictionary<string, ICommand> commands;
+        private Dictionary<int, ICommand> commands;
 
         public RemoteControl()
         {
-            commands = new Dictionary<string, ICommand>();
-            commands.Add("1", new LightsCommand());
-            commands.Add("2", new TVCommand());
-            commands.Add("3", new MusicCommand());
+            commands = new Dictionary<int, ICommand>();
         }
 
-        public void DrawMenu()
+        public void SetCommandForButton(int buttonID, ICommand cmd) // set commands
         {
-            Console.WriteLine("Choose option: ");
-            Console.WriteLine("1 - Turn light on");
-            Console.WriteLine("1off - Turn light off");
-            Console.WriteLine("2 - Turn TV on");
-            Console.WriteLine("2off - Turn TV off");
-            Console.WriteLine("3 - Turn Music on");
-            Console.WriteLine("3off - Turn Music off");
-        }     
+            commands[buttonID] = cmd;
+        }
 
-        public void PerformAction()
+        public override string ToString() // draw menu
         {
-            Console.Write("System is waiting for your choice: ");
-            string input = Console.ReadLine() ?? string.Empty;
-            switch (input)
-            {            
-                case "1off":
-                    TurnLightOff();
-                    break;             
-                case "2off":
-                    TurnTVOff();
-                    break;
-                case "3off":
-                    TurnMusicOff();
-                    break;
-            }
-
-            if (commands.ContainsKey(input))
+            var sb = new StringBuilder();
+            foreach (var buttonID in commands.Keys)
             {
-                commands[input].Execute();
+                sb.AppendLine($"{buttonID} - {commands[buttonID]}");
+            }
+
+            return sb.ToString();
+        }
+
+        public void PushButton(int buttonID) // push button
+        {
+            if (commands.ContainsKey(buttonID))
+            {
+                commands[buttonID].Execute();
             }
         }
 
-        private void TurnLightOff()
+        public void UndoButton(int buttonID) // undo button
         {
-            Console.WriteLine("Light is off");
-        }
-
-        private void TurnTVOff()
-        {
-            Console.WriteLine("TV is off");
-        }
-
-        private void TurnMusicOff()
-        {
-            Console.WriteLine("Music is off");
+            if (commands.ContainsKey(buttonID))
+            {
+                commands[buttonID].Undo();
+            }
         }
     }
 }
