@@ -113,6 +113,15 @@ Creational Design Patterns; Structural Design Patterns; Behavioral Design Patter
      - allows sequential access of elements without exposing the inside logic;
      - we can access the elements of a collection object in a sequential manner without any need to know its internal representations;
     
+    c) Command:
+     - is used to encapsulate a request as an object (i.e. a command) and pass to an invoker (remote control);
+     - the invoker does now knows how to service the request but uses the encapsulated commands to perform an action;
+     - the command object also has the Execute method and Undo;
+    
+    d) Template Method:
+    
+   
+    
     
     
     
