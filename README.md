@@ -119,8 +119,8 @@ Creational Design Patterns; Structural Design Patterns; Behavioral Design Patter
      - the command object also has the Execute method and Undo;
     
     d) Template Method:
-    
-   
+     - defines a sequence of steps of an algorithm and allows the subclasses to override the steps but not allowed to change the sequence;
+     - the Key to the Template Design Pattern is that we put the general logic in the abstract parent class and let the child classes define the specifics;
     
     
     
