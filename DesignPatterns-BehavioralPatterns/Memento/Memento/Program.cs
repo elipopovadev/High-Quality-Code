@@ -10,8 +10,9 @@ namespace Memento
             Originator originator = new Originator(); // hall
             Caretaker.Caretaker caretaker = new Caretaker.Caretaker(); // storeroom
 
-            originator.ledTV = new LEDTV("42 inch", "60000Rs", false);
-            caretaker.AddMemento(originator.CreateMemento());
+            originator.ledTV = new LEDTV("42 inch", "60000Rs", false); // ledTV
+            var memento = originator.CreateMemento(); // Create memento
+            caretaker.AddMemento(memento); // Add Memento
 
             originator.ledTV = new LEDTV("46 inch", "80000Rs", true);
             caretaker.AddMemento(originator.CreateMemento());
