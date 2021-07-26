@@ -122,6 +122,12 @@ Creational Design Patterns; Structural Design Patterns; Behavioral Design Patter
      - defines a sequence of steps of an algorithm and allows the subclasses to override the steps but not allowed to change the sequence;
      - the Key to the Template Design Pattern is that we put the general logic in the abstract parent class and let the child classes define the specifics;
     
+    e) Strategy
+     - define a family of algorithms, encapsulate each one, and make them interchangeable;
+     - Strategy lets the algorithm vary independently from clients that use it;
+     - is used when we have multiple algorithms (solutions) for a specific task and the client decides the actual implementation to be used at runtime;
+    
+    
     
     
     
