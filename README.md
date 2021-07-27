@@ -145,7 +145,7 @@ Creational Design Patterns; Structural Design Patterns; Behavioral Design Patter
      - there are three important classes (Originator, Memento, and Caretaker);
      - Originator: It creates a memento containing a snapshot of its current internal state and uses the memento to restore its internal state;
      - Memento: It holds the internal state of an Originator;
-     - Caretaker: It is responsible for keeping the mementos. Like maintaining save points and never operates on or examine the contents of a memento;
+     - Caretaker: It is responsible for keeping the mementos. Like maintaining save points and never operates on or examine the contents of a Memento;
     
     i) State
      - allows an object to completely change its behavior depending upon its current internal state;
