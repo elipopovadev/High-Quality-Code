@@ -134,5 +134,12 @@ Creational Design Patterns; Structural Design Patterns; Behavioral Design Patter
      - the other names of this pattern are Producer/Consumer, Publish/Subscribe.
      - the company needs to notify all its shareholders of any decision they make. Here, Company is the Subject and Shareholders are Observers;
     
+    g) Memento
+     - is used to restore an object to its previous state;
+     - if you want to perform some kind of undo or rollback operation in your application then you need to use the Memento Design Pattern;
+     - there are three important classes (Originator, Memento, and Caretaker);
+     - Originator: It creates a memento containing a snapshot of its current internal state and uses the memento to restore its internal state;
+     - Memento: It holds the internal state of an Originator;
+     - Caretaker: It is responsible for keeping the mementos. Like maintaining save points and never operates on or examine the contents of a memento;
     
     
