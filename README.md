@@ -147,4 +147,8 @@ Creational Design Patterns; Structural Design Patterns; Behavioral Design Patter
      - Memento: It holds the internal state of an Originator;
      - Caretaker: It is responsible for keeping the mementos. Like maintaining save points and never operates on or examine the contents of a memento;
     
+    i) State
+     - is a design pattern that allows an object to completely change its behavior depending upon its current internal state;
+     - ATM machine behavior is the best example of the State Design Pattern;
+    
     
