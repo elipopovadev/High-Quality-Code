@@ -134,7 +134,12 @@ Creational Design Patterns; Structural Design Patterns; Behavioral Design Patter
      - the other names of this pattern are Producer/Consumer, Publish/Subscribe.
      - the company needs to notify all its shareholders of any decision they make. Here, Company is the Subject and Shareholders are Observers;
     
-    g) Memento
+    g) Mediator
+     - is used to reduce the communication complexity between multiple objects;
+     - The Mediator object acts as the communication center for all objects and that mediator object normally handles all the communication complexities between different objects;
+     - when an object needs to communicate to another object, then it does not call the other object directly, instead, it calls the mediator object;
+    
+    h) Memento
      - is used to restore an object to its previous state;
      - if you want to perform some kind of undo or rollback operation in your application then you need to use the Memento Design Pattern;
      - there are three important classes (Originator, Memento, and Caretaker);
