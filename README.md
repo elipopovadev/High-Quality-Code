@@ -1,5 +1,5 @@
 # High-Quality-Code
-Creational Design Patterns; Structural Design Patterns; Behavioral Design Patterns; Dependency Injection Design Pattern; Repository Design Pattern 
+Creational Design Patterns; Structural Design Patterns; Behavioral Design Patterns; Dependency Injection Design Pattern
 1. Creational Design Patterns:
 
     a) Singleton:
