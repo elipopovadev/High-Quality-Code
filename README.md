@@ -151,4 +151,7 @@ Creational Design Patterns; Structural Design Patterns; Behavioral Design Patter
      - allows an object to completely change its behavior depending upon its current internal state;
      - ATM machine behavior is the best example of the State Design Pattern;
     
+    j) Interpreter
+     - provides a way to evaluate language grammar or expression;
+     - is used in SQL parsing, symbol processing engine, etc.
     
