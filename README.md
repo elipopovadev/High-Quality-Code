@@ -156,5 +156,5 @@ Creational Design Patterns; Structural Design Patterns; Behavioral Design Patter
      - is used in SQL parsing, symbol processing engine, etc.
     
     k) Visitor
-    - As per the Visitor Design Pattern, the element object (every kid in the school) has to accept the visitor object (doctor, salesman);
+    - as per the Visitor Design Pattern, the element object (every kid in the school) has to accept the visitor object (doctor, salesman);
     - the visitor object handles the operation on the element object;
