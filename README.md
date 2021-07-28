@@ -155,3 +155,5 @@ Creational Design Patterns; Structural Design Patterns; Behavioral Design Patter
      - provides a way to evaluate language grammar or expression;
      - is used in SQL parsing, symbol processing engine, etc.
     
+    k) Visitor
+    
