@@ -4,8 +4,7 @@ using System;
 namespace Observer.Observer
 {
     public class Observer : IObserver
-    {
-       
+    {      
         public Observer(string userName, ISubject subject) // user
         {
             this.UserName = userName;
