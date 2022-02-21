@@ -49,6 +49,7 @@
     
     
     
+    
 2. Structural Design Patterns:
     
       a) Facade:
@@ -98,6 +99,7 @@
      - we can improve the performance by creating the circle object only one time and reuse that circle object many times to create a different type of color;
 
 
+    
     
     
     
