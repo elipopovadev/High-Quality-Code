@@ -6,6 +6,7 @@
 
 ### 1. Creational Design Patterns:
 
+
     a) Singleton:
       - this pattern ensures that a class has only one instance and provides a global point of access to it;
       - always is sealed class with: private static Singleton instance, private constructor and one getter- public static Singleton GetInstance (see Standard Singleton);
@@ -53,6 +54,7 @@
     
     
 ### 2. Structural Design Patterns:
+
     
       a) Facade:
       - defines a higher-level interface that makes the subsystem easier to use;
@@ -106,6 +108,7 @@
     
     
 ### 3. Behavioral Design Patterns:
+
     
     a) Chain of Responsibility:
      - the chain of responsibility design pattern creates a chain of receiver objects for a given request;
@@ -164,3 +167,4 @@
     k) Visitor
     - as per the Visitor Design Pattern, the element object (every kid in the school) has to accept the visitor object (doctor, salesman);
     - the visitor object handles the operation on the element object;
+    
