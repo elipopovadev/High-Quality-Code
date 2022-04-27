@@ -1,8 +1,9 @@
 # High Quality Code
+## Creational Design Patterns; Structural Design Patterns; Behavioral Design Patterns
 
 ![!](https://user-images.githubusercontent.com/75258625/155038816-217fabf0-3a18-43b2-ae54-4234adc72e04.png)
 
-## Creational Design Patterns; Structural Design Patterns; Behavioral Design Patterns
+
 
 ### 1. Creational Design Patterns:
 
