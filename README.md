@@ -1,8 +1,10 @@
+# High Quality Code
+
 ![!](https://user-images.githubusercontent.com/75258625/155038816-217fabf0-3a18-43b2-ae54-4234adc72e04.png)
 
-# Creational Design Patterns; Structural Design Patterns; Behavioral Design Patterns
+## Creational Design Patterns; Structural Design Patterns; Behavioral Design Patterns
 
-1. Creational Design Patterns:
+### 1. Creational Design Patterns:
 
     a) Singleton:
       - this pattern ensures that a class has only one instance and provides a global point of access to it;
@@ -50,7 +52,7 @@
     
     
     
-2. Structural Design Patterns:
+### 2. Structural Design Patterns:
     
       a) Facade:
       - defines a higher-level interface that makes the subsystem easier to use;
@@ -103,7 +105,7 @@
     
     
     
-3. Behavioral Design Patterns:
+### 3. Behavioral Design Patterns:
     
     a) Chain of Responsibility:
      - the chain of responsibility design pattern creates a chain of receiver objects for a given request;
